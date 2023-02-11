@@ -1,0 +1,200 @@
+body{
+    background-image:url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;}
+header{
+    justify-content: space-between;
+    display: flex;
+    align-items:center;
+    padding: 10px 10%;
+    background-color:rgb(113, 4, 4);
+    background-attachment: fixed;
+    
+    
+}
+
+.logo{
+    cursor: pointer;
+}
+
+ul,a{
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+ul,li{display: inline-block;
+    padding: 0px 20px;
+    
+
+}
+
+ul,li,a{transition: all 0.3s ease 0s;}
+
+ul,li,a:hover{color: black;}
+
+.banner{text-align: center;}
+
+
+.home{
+    color: white;
+    font-family: sans-serif} 
+    
+.sign{
+    color:white;
+    font-family: sans-serif}    
+
+    
+.Welcome{
+    color: white;
+    font-family:
+    sans-serif;
+    text-align:center}     
+
+.text1{
+    color: white;
+    font-family:
+    sans-serif;
+    text-align:center}    
+
+.How{ color: white;
+    font-family:
+    sans-serif;
+    text-align:center}    
+
+.how{
+    color: white;
+    font-family:
+    sans-serif;
+    text-align:center}
+
+.signup1{
+    color: white;
+    font-family:
+    sans-serif;
+    text-align:center}
+    
+.signup2{
+    color: whitesmoke;
+    font-family:
+    sans-serif;
+    text-align:center}
+
+.youtube{text-align: center;}
+
+.map{text-align: center;}
+
+
+.monthly{color: whitesmoke;
+    font-family:
+    sans-serif;
+    text-align:center}
+
+table{
+    width: 600px;
+    color: white;
+    
+    
+}
+
+th{
+    text-align: left;
+}
+
+table,th,td{border: 1px solid white;
+            border-collapse: collapse;}
+
+th,td{padding: 10px;}           
+
+table{
+   text-align: left;
+   margin:auto
+}
+
+.monthly{color: white;
+    font-family:
+    sans-serif;
+    text-align:center    
+    }
+
+.location{color: white;
+    font-family:
+    sans-serif;
+    text-align:center
+} 
+
+
+
+footer{background-color: rgb(66, 1, 1);
+    padding: 5px 10%;
+    background-color:rgb(113, 4, 4);
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    
+}  
+    
+    
+/*sign up page*/
+
+.sign-up-form{
+    width: 300px;
+    height: 300px;
+    margin: 10% auto 0;
+    text-align: center;
+    font-family:sans-serif;
+    color: aliceblue;
+    
+    
+}
+
+input{border-radius: 20px;
+      padding: 10px;
+      margin: 10px 0;
+      width: 100%;
+      border: 2px solid rgb(251, 251, 251);
+      outline: none;
+       }
+
+button{border-radius: 20px;
+    background-color: rgb(105, 28, 7);
+    border-color: rgb(247, 241, 241);
+    padding: 10px;
+    margin: 10px 0;
+         width: 200px;
+        color: white;} 
+        
+
+.join{text-align: center;
+      color: white;
+      font-family:Arial, sans-serif;
+}    
+
+
+/* customer support page*/    
+
+textarea{border-radius: 10px;
+         height: 100px;
+         font-family:sans-serif;
+        
+
+}
+
+.contact{
+    color: white;
+    font-family:
+    sans-serif;
+    text-align:center}
+
+.email{color: aliceblue;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+    

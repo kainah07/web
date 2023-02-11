@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <title>Sign up</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+      
+        
+        <header>
+            <img class="logo" src="logo.jpeg" alt="company logo" height="100" width="400">
+            <nav>
+              <ul class="nav_links">
+                 <li><a class="home" href="home.html">Home</a></li>
+                 <li><a class="sign" href="signup.html">Sign up</a></li>
+                 <li><a class="sign" href="customer-support.html">Customer support</a></li>
+            </ul>
+            </nav>
+          </header>
+          <hr>
+          <br>
+          <br>
+          <div class="join">
+          <h1>Sign up now!!</h1>
+          <p>Join our loyalty plan</p>
+          <p>to get amazing rewards</p>
+          </div>
+         
+         <div class="sign-up-form">
+            <h1 class="signup title">Sign up</h1>
+
+         <form id="form" method="get" action="signup.html" onsubmit="return validateForm()">
+          
+            
+            <input type="email" id="email" name="email" placeholder="Email" required >            
+            <input type="password" id="password" name="password" placeholder="Password" required>           
+            <input type="tel" id="contact" name="contact" placeholder="Contact number" required>            
+            <input type="text" id="address" name="address" placeholder="Address" required>
+            <div class="error"></div>
+          
+            <button onclick="show_alert()" type="submit">Sign up</button>
+         </form>
+         </div>
+         
+         <br>
+         <br>
+         <br>
+         <br>
+        <br>
+
+        <div class="contact">
+          <h2 >Contact us</h2>   
+          <p>For more info please contact us via</p>    
+          <p >Email:  <a class="email" href="mailto:hakydogy@mail.com">hakydogy@email.com </a> 
+              Mobile:  <a class="email" href="tel:+639456788644">+63 945 678 9276</a> </p>
+          <p>or visit our page in:</p>
+          <a class="facebook" href="https://www.facebook.com/profile.php?id=100089993628024"> 
+              <img class="image"
+              src="https://th.bing.com/th/id/R.8b4e0813e813feab6c598f77887b1485?rik=G2l5mCAvaYfBmw&riu=http%3a%2f%2fwww.dayzcolony.com%2fwp-content%2fuploads%2f2017%2f10%2fFacebook-Circle-Icon.png&ehk=4QVaOzH7aUagUjzLAayVs1NUmFN%2bySZGWRnVZWo%2bDAU%3d&risl=&pid=ImgRaw&r=0"
+               alt="facebook page" height="60" width="60"></a>
+            </div>
+
+          <br>
+        
+          
+      <footer class="footer">
+      <p>Copyright &copy; 2023, Fresh Foods Supermarket</p>
+      </footer>
+             
+         
+
+    </body>
+</html>
